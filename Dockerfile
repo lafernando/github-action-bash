@@ -4,9 +4,9 @@ LABEL version="latest"
 
 LABEL maintainer="lafernando"
 
-LABEL "com.github.actions.name"="GitHub Action for Bash Scripts"
+LABEL "com.github.actions.name"="GitHub Action for Bash"
 
-LABEL "com.github.actions.description"="Executes the given Bash script"
+LABEL "com.github.actions.description"="Executes a given Bash script"
 
 LABEL "com.github.actions.icon"="clipboard"
 
