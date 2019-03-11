@@ -8,7 +8,7 @@ LABEL "com.github.actions.name"="GitHub Action for Bash Scripts"
 
 LABEL "com.github.actions.description"="Executes the given Bash script"
 
-LABEL "com.github.actions.icon"="box"
+LABEL "com.github.actions.icon"="clipboard"
 
 LABEL "com.github.actions.color"="red"
 
