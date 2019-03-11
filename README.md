@@ -1,4 +1,4 @@
-# GitHub Action for the Bash Scripts
+# GitHub Action for Bash Scripts
 
 ## Usage
 
