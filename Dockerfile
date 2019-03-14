@@ -16,6 +16,8 @@ LABEL "repository"="https://github.com/lafernando/github-action-bash"
 
 LABEL "homepage"="https://github.com/lafernando/github-action-bash"
 
+RUN apt-get install netcat-openbsd 
+
 ADD entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
