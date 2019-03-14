@@ -18,7 +18,7 @@ LABEL "homepage"="https://github.com/lafernando/github-action-bash"
 
 RUN apt-get update
 
-RUN apt-get install netcat-openbsd 
+RUN apt-get -y install netcat-openbsd 
 
 ADD entrypoint.sh /entrypoint.sh
 
