@@ -17,8 +17,8 @@ LABEL "repository"="https://github.com/lafernando/github-action-bash"
 LABEL "homepage"="https://github.com/lafernando/github-action-bash"
 
 RUN apt-get update
-RUN apt-get install netcat-openbsd
-RUN apt-get install wget
+RUN apt-get -y install netcat-openbsd
+RUN apt-get -y install wget
 
 ENV DOCKER_CHANNEL stable
 ENV DOCKER_VERSION 18.09.3
