@@ -39,7 +39,7 @@ RUN ls; \
 	rm docker.tgz; \
 	\
 	dockerd --version; \
-	docker version
+	docker --version
 
 ADD entrypoint.sh /entrypoint.sh
 
