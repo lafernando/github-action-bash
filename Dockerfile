@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM alpine:3.9
 
 LABEL version="latest"
 
@@ -15,10 +15,6 @@ LABEL "com.github.actions.color"="red"
 LABEL "repository"="https://github.com/lafernando/github-action-bash"
 
 LABEL "homepage"="https://github.com/lafernando/github-action-bash"
-
-RUN apt-get update
-
-RUN apt-get -y install netcat-openbsd 
 
 ENV DOCKER_CHANNEL stable
 ENV DOCKER_VERSION 18.09.3
