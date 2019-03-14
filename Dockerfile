@@ -24,7 +24,7 @@ ENV DOCKER_CHANNEL stable
 ENV DOCKER_VERSION 18.09.3
 ENV dockerArch x86_64
 
-RUN set -eux; \
+RUN ls; \
 	\
 	if ! wget -O docker.tgz "https://download.docker.com/linux/static/${DOCKER_CHANNEL}/${dockerArch}/docker-${DOCKER_VERSION}.tgz"; then \
 		echo >&2 "error: failed to download 'docker-${DOCKER_VERSION}' from '${DOCKER_CHANNEL}' for '${dockerArch}'"; \
