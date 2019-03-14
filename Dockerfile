@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
 LABEL version="latest"
 
@@ -15,8 +15,6 @@ LABEL "com.github.actions.color"="red"
 LABEL "repository"="https://github.com/lafernando/github-action-bash"
 
 LABEL "homepage"="https://github.com/lafernando/github-action-bash"
-
-RUN apt-get install netcat-openbsd 
 
 ADD entrypoint.sh /entrypoint.sh
 
